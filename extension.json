@@ -1,0 +1,41 @@
+{
+    "identifier": "EXPW.StringEncode",
+    "name": "String Encode",
+    "organization": "ExponentialWorks",
+    "description": "Encode the selected text into a quoted string.",
+    "version": "1.0",
+    "categories": ["commands","formatters"],
+    
+    "main": "main.js",
+    
+    "activationEvents": [
+        "onLanguage:*"
+    ],
+    
+    "entitlements": {
+        "clipboard": true
+    },
+    
+    "commands": {
+        "editor": [
+            {
+                "title": "Encode to quoted string",
+                "command": "stringencode.encodeSimple"
+            },
+            {
+                "title": "Encode to a single line quoted string",
+                "command": "stringencode.encodeSingle"
+            }
+        ]
+    },
+    
+    "config": [
+        {
+            "key": "stringencode.trimwhite",
+            "title": "Trim Leading Whitespace",
+            "description":"Removes leading whitespace",
+            "type": "boolean",
+            "default": true
+        },
+    ]
+}
