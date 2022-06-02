@@ -5,7 +5,8 @@
     "description": "Encode the selected text into a quoted string.",
     "version": "1.0",
     "categories": ["commands","formatters"],
-    
+    "bugs": "https://github.com/ctkjose/StringEncode/issues",
+    "repository": "https://github.com/ctkjose/StringEncode",
     "main": "main.js",
     
     "activationEvents": [
