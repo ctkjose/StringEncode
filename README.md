@@ -9,7 +9,7 @@ StringEncode has no additional requirements.
 
 To run StringEncode:
 
-- Select the **Editor → Encode to quoted string** menu item; or
+- Select the **Editor → Encode to quoted string** menu item; or when you right click on the editor.
 - Open the command palette and type `Encode`
 
 

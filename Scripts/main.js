@@ -9,7 +9,7 @@ exports.deactivate = function() {
 
 function encodeSimple(s, opSingleLine){
     let opTrimWhite = nova.config.get("stringencode.trimwhite", "boolean");
-    console.log("opTrimWhite=" + opTrimWhite);
+    //console.log("opTrimWhite=" + opTrimWhite);
     if (!s.endsWith('\n')) {
         s += '\n';
     }
